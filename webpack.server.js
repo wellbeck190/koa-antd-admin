@@ -37,4 +37,4 @@ var server = new WebpackDevServer(compiler, {
         colors: true  // 用颜色标识
     },
 });
-server.listen(8081);
+server.listen(process.env.PORT);
